@@ -23,12 +23,12 @@ class OnBoardingPage extends StatelessWidget {
             const SizedBox(height: TSizes.defaultSpace),
             Text(
               title,
-              style: Theme.of(context).textTheme.headline6,
+              style: Theme.of(context).textTheme.titleLarge,
             ),
             const SizedBox(height: TSizes.defaultSpace),
             Text(
               subTitle,
-              style: Theme.of(context).textTheme.bodyText1,
+              style: Theme.of(context).textTheme.bodyLarge,
               textAlign: TextAlign.center,
             ),
           ],

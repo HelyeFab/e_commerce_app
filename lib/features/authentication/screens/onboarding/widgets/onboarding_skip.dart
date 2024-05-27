@@ -19,7 +19,7 @@ class OnBoardingSkip extends StatelessWidget {
           // Skip to the last page
           OnBoardingController.instance.skipPage();
         },
-        child: Text(TTexts.skip, style: Theme.of(context).textTheme.button),
+        child: Text(TTexts.skip, style: Theme.of(context).textTheme.labelLarge),
       ),
     );
   }
